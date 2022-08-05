@@ -17,6 +17,9 @@
 		90EFEE40289CE4D8008F567C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE16289CE4D5008F567C /* ContentView.swift */; };
 		90EFEE41289CE4D8008F567C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EFEE17289CE4D8008F567C /* Assets.xcassets */; };
 		90EFEE42289CE4D8008F567C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EFEE17289CE4D8008F567C /* Assets.xcassets */; };
+		90EFEE58289CEA5A008F567C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE57289CEA5A008F567C /* Player.swift */; };
+		90EFEE5A289CEBA2008F567C /* PlayerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE59289CEBA2008F567C /* PlayerObject.swift */; };
+		90EFEE5E289CF326008F567C /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE5D289CF326008F567C /* Move.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		90EFEE35289CE4D8008F567C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EFEE39289CE4D8008F567C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		90EFEE3B289CE4D8008F567C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		90EFEE57289CEA5A008F567C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		90EFEE59289CEBA2008F567C /* PlayerObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerObject.swift; sourceTree = "<group>"; };
+		90EFEE5D289CF326008F567C /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 		90EFEE14289CE4D5008F567C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				90EFEE52289CEA1F008F567C /* Objects */,
+				90EFEE51289CE940008F567C /* Resources */,
 				90EFEE15289CE4D5008F567C /* SuperMetroidVaniaMegaCloneApp.swift */,
 				90EFEE16289CE4D5008F567C /* ContentView.swift */,
 				90EFEE17289CE4D8008F567C /* Assets.xcassets */,
@@ -139,6 +147,55 @@
 				90EFEE3B289CE4D8008F567C /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		90EFEE51289CE940008F567C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90EFEE52289CEA1F008F567C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				90EFEE55289CEA36008F567C /* Environment */,
+				90EFEE54289CEA30008F567C /* NPCs */,
+				90EFEE53289CEA28008F567C /* Player */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		90EFEE53289CEA28008F567C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				90EFEE5C289CF30C008F567C /* Behaviors */,
+				90EFEE57289CEA5A008F567C /* Player.swift */,
+				90EFEE59289CEBA2008F567C /* PlayerObject.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		90EFEE54289CEA30008F567C /* NPCs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NPCs;
+			sourceTree = "<group>";
+		};
+		90EFEE55289CEA36008F567C /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		90EFEE5C289CF30C008F567C /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				90EFEE5D289CF326008F567C /* Move.swift */,
+			);
+			path = Behaviors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +356,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EFEE5E289CF326008F567C /* Move.swift in Sources */,
 				90EFEE3F289CE4D8008F567C /* ContentView.swift in Sources */,
+				90EFEE5A289CEBA2008F567C /* PlayerObject.swift in Sources */,
+				90EFEE58289CEA5A008F567C /* Player.swift in Sources */,
 				90EFEE3D289CE4D8008F567C /* SuperMetroidVaniaMegaCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
