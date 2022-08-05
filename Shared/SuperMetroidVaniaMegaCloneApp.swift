@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct SuperMetroidVaniaMegaCloneApp: App {
-    var X: Double = 0.0
-    var Y: Double = 0.0
+    
     var body: some Scene {
         WindowGroup {
-            
+            Group{
+                Player(player: PlayerObject.init(positionX: 0.0, positionY: 0.0))
+            }
         }
         
     }

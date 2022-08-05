@@ -13,7 +13,7 @@ struct Player: View {
     @State var currentPositionY: Double = 0.0
     @State var move: Bool = false
     @State var inputPosition: PlayerObject
-    @State var changePosition: Double = 20
+    @State var changePosition: Double = 50
     var body: some View{
         Group{
             Button(action: Move){
@@ -29,8 +29,8 @@ struct Player: View {
             newChange in
             if (currentPositionX != inputPosition.positionX || currentPositionY != inputPosition.positionY){
                 withAnimation(Animation.default){
-                    currentPositionX += inputPosition.positionX
-                    currentPositionY += inputPosition.positionY
+                    currentPositionX = inputPosition.positionX
+                    currentPositionY = inputPosition.positionY
                 }
             }
             
