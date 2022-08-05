@@ -9,28 +9,31 @@ import Foundation
 import SwiftUI
 
 struct Player: View {
-    @State var currentPosition: PlayerObject = PlayerObject.init(positionX: 0.0, positionY: 0.0)
-    
+    @State var currentPositionX: Double = 0.0
+    @State var currentPositionY: Double = 0.0
+    @State var move: Bool = false
     @State var inputPosition: PlayerObject
     @State var changePosition: Double = 20
     var body: some View{
         Group{
-            Button(){
-                inputPosition.positionY += changePosition
-            } label: {
+            Button(action: Move){
                 Rectangle()
                     .frame(width: 40, height: 40)
-                    .offset(x: currentPosition.positionX,y: currentPosition.positionY)
+                    
             }
+            .offset(x: currentPositionX,y: currentPositionY)
+            
             
         }
-        .onAppear{
-            if (!PlayerObject.equal(player1: currentPosition, player2: inputPosition)){
+        .onChange(of:move){
+            newChange in
+            if (currentPositionX != inputPosition.positionX || currentPositionY != inputPosition.positionY){
                 withAnimation(Animation.default){
-                    currentPosition.positionX = inputPosition.positionX
-                    currentPosition.positionY = inputPosition.positionY
+                    currentPositionX += inputPosition.positionX
+                    currentPositionY += inputPosition.positionY
                 }
             }
+            
         }
     }
     
@@ -40,6 +43,11 @@ struct Player: View {
     func nextPosition(player: PlayerObject){
         self.inputPosition = player
     }
+    func Move(){
+        self.move.toggle()
+        self.inputPosition.positionX += self.changePosition
+    }
+    
     
 }
 
