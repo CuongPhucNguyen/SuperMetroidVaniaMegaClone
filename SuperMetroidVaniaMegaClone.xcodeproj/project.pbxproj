@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90EFEE2E289CE4D8008F567C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE2D289CE4D8008F567C /* Tests_iOS.swift */; };
+		90EFEE30289CE4D8008F567C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE2F289CE4D8008F567C /* Tests_iOSLaunchTests.swift */; };
+		90EFEE3A289CE4D8008F567C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE39289CE4D8008F567C /* Tests_macOS.swift */; };
+		90EFEE3C289CE4D8008F567C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE3B289CE4D8008F567C /* Tests_macOSLaunchTests.swift */; };
+		90EFEE3D289CE4D8008F567C /* SuperMetroidVaniaMegaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE15289CE4D5008F567C /* SuperMetroidVaniaMegaCloneApp.swift */; };
+		90EFEE3E289CE4D8008F567C /* SuperMetroidVaniaMegaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE15289CE4D5008F567C /* SuperMetroidVaniaMegaCloneApp.swift */; };
+		90EFEE3F289CE4D8008F567C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE16289CE4D5008F567C /* ContentView.swift */; };
+		90EFEE40289CE4D8008F567C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE16289CE4D5008F567C /* ContentView.swift */; };
+		90EFEE41289CE4D8008F567C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EFEE17289CE4D8008F567C /* Assets.xcassets */; };
+		90EFEE42289CE4D8008F567C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EFEE17289CE4D8008F567C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90EFEE2A289CE4D8008F567C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90EFEE10289CE4D5008F567C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EFEE1B289CE4D8008F567C;
+			remoteInfo = "SuperMetroidVaniaMegaClone (iOS)";
+		};
+		90EFEE36289CE4D8008F567C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90EFEE10289CE4D5008F567C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EFEE21289CE4D8008F567C;
+			remoteInfo = "SuperMetroidVaniaMegaClone (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90EFEE15289CE4D5008F567C /* SuperMetroidVaniaMegaCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMetroidVaniaMegaCloneApp.swift; sourceTree = "<group>"; };
+		90EFEE16289CE4D5008F567C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90EFEE17289CE4D8008F567C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90EFEE1C289CE4D8008F567C /* SuperMetroidVaniaMegaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMetroidVaniaMegaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EFEE22289CE4D8008F567C /* SuperMetroidVaniaMegaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMetroidVaniaMegaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EFEE24289CE4D8008F567C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90EFEE29289CE4D8008F567C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EFEE2D289CE4D8008F567C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		90EFEE2F289CE4D8008F567C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		90EFEE35289CE4D8008F567C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EFEE39289CE4D8008F567C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		90EFEE3B289CE4D8008F567C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90EFEE19289CE4D8008F567C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE1F289CE4D8008F567C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE26289CE4D8008F567C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE32289CE4D8008F567C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90EFEE0F289CE4D5008F567C = {
+			isa = PBXGroup;
+			children = (
+				90EFEE14289CE4D5008F567C /* Shared */,
+				90EFEE23289CE4D8008F567C /* macOS */,
+				90EFEE2C289CE4D8008F567C /* Tests iOS */,
+				90EFEE38289CE4D8008F567C /* Tests macOS */,
+				90EFEE1D289CE4D8008F567C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90EFEE14289CE4D5008F567C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				90EFEE15289CE4D5008F567C /* SuperMetroidVaniaMegaCloneApp.swift */,
+				90EFEE16289CE4D5008F567C /* ContentView.swift */,
+				90EFEE17289CE4D8008F567C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		90EFEE1D289CE4D8008F567C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90EFEE1C289CE4D8008F567C /* SuperMetroidVaniaMegaClone.app */,
+				90EFEE22289CE4D8008F567C /* SuperMetroidVaniaMegaClone.app */,
+				90EFEE29289CE4D8008F567C /* Tests iOS.xctest */,
+				90EFEE35289CE4D8008F567C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90EFEE23289CE4D8008F567C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				90EFEE24289CE4D8008F567C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		90EFEE2C289CE4D8008F567C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90EFEE2D289CE4D8008F567C /* Tests_iOS.swift */,
+				90EFEE2F289CE4D8008F567C /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		90EFEE38289CE4D8008F567C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				90EFEE39289CE4D8008F567C /* Tests_macOS.swift */,
+				90EFEE3B289CE4D8008F567C /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90EFEE1B289CE4D8008F567C /* SuperMetroidVaniaMegaClone (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EFEE45289CE4D8008F567C /* Build configuration list for PBXNativeTarget "SuperMetroidVaniaMegaClone (iOS)" */;
+			buildPhases = (
+				90EFEE18289CE4D8008F567C /* Sources */,
+				90EFEE19289CE4D8008F567C /* Frameworks */,
+				90EFEE1A289CE4D8008F567C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuperMetroidVaniaMegaClone (iOS)";
+			productName = "SuperMetroidVaniaMegaClone (iOS)";
+			productReference = 90EFEE1C289CE4D8008F567C /* SuperMetroidVaniaMegaClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90EFEE21289CE4D8008F567C /* SuperMetroidVaniaMegaClone (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EFEE48289CE4D8008F567C /* Build configuration list for PBXNativeTarget "SuperMetroidVaniaMegaClone (macOS)" */;
+			buildPhases = (
+				90EFEE1E289CE4D8008F567C /* Sources */,
+				90EFEE1F289CE4D8008F567C /* Frameworks */,
+				90EFEE20289CE4D8008F567C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuperMetroidVaniaMegaClone (macOS)";
+			productName = "SuperMetroidVaniaMegaClone (macOS)";
+			productReference = 90EFEE22289CE4D8008F567C /* SuperMetroidVaniaMegaClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90EFEE28289CE4D8008F567C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EFEE4B289CE4D8008F567C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				90EFEE25289CE4D8008F567C /* Sources */,
+				90EFEE26289CE4D8008F567C /* Frameworks */,
+				90EFEE27289CE4D8008F567C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EFEE2B289CE4D8008F567C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 90EFEE29289CE4D8008F567C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		90EFEE34289CE4D8008F567C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EFEE4E289CE4D8008F567C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				90EFEE31289CE4D8008F567C /* Sources */,
+				90EFEE32289CE4D8008F567C /* Frameworks */,
+				90EFEE33289CE4D8008F567C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EFEE37289CE4D8008F567C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 90EFEE35289CE4D8008F567C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90EFEE10289CE4D5008F567C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					90EFEE1B289CE4D8008F567C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					90EFEE21289CE4D8008F567C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					90EFEE28289CE4D8008F567C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 90EFEE1B289CE4D8008F567C;
+					};
+					90EFEE34289CE4D8008F567C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 90EFEE21289CE4D8008F567C;
+					};
+				};
+			};
+			buildConfigurationList = 90EFEE13289CE4D5008F567C /* Build configuration list for PBXProject "SuperMetroidVaniaMegaClone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90EFEE0F289CE4D5008F567C;
+			productRefGroup = 90EFEE1D289CE4D8008F567C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90EFEE1B289CE4D8008F567C /* SuperMetroidVaniaMegaClone (iOS) */,
+				90EFEE21289CE4D8008F567C /* SuperMetroidVaniaMegaClone (macOS) */,
+				90EFEE28289CE4D8008F567C /* Tests iOS */,
+				90EFEE34289CE4D8008F567C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90EFEE1A289CE4D8008F567C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EFEE41289CE4D8008F567C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE20289CE4D8008F567C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EFEE42289CE4D8008F567C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE27289CE4D8008F567C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE33289CE4D8008F567C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90EFEE18289CE4D8008F567C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EFEE3F289CE4D8008F567C /* ContentView.swift in Sources */,
+				90EFEE3D289CE4D8008F567C /* SuperMetroidVaniaMegaCloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE1E289CE4D8008F567C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EFEE40289CE4D8008F567C /* ContentView.swift in Sources */,
+				90EFEE3E289CE4D8008F567C /* SuperMetroidVaniaMegaCloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE25289CE4D8008F567C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EFEE30289CE4D8008F567C /* Tests_iOSLaunchTests.swift in Sources */,
+				90EFEE2E289CE4D8008F567C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EFEE31289CE4D8008F567C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EFEE3C289CE4D8008F567C /* Tests_macOSLaunchTests.swift in Sources */,
+				90EFEE3A289CE4D8008F567C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90EFEE2B289CE4D8008F567C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90EFEE1B289CE4D8008F567C /* SuperMetroidVaniaMegaClone (iOS) */;
+			targetProxy = 90EFEE2A289CE4D8008F567C /* PBXContainerItemProxy */;
+		};
+		90EFEE37289CE4D8008F567C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90EFEE21289CE4D8008F567C /* SuperMetroidVaniaMegaClone (macOS) */;
+			targetProxy = 90EFEE36289CE4D8008F567C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		90EFEE43289CE4D8008F567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90EFEE44289CE4D8008F567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		90EFEE46289CE4D8008F567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.SuperMetroidVaniaMegaClone;
+				PRODUCT_NAME = SuperMetroidVaniaMegaClone;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90EFEE47289CE4D8008F567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.SuperMetroidVaniaMegaClone;
+				PRODUCT_NAME = SuperMetroidVaniaMegaClone;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90EFEE49289CE4D8008F567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.SuperMetroidVaniaMegaClone;
+				PRODUCT_NAME = SuperMetroidVaniaMegaClone;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90EFEE4A289CE4D8008F567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.SuperMetroidVaniaMegaClone;
+				PRODUCT_NAME = SuperMetroidVaniaMegaClone;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		90EFEE4C289CE4D8008F567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rmit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SuperMetroidVaniaMegaClone (iOS)";
+			};
+			name = Debug;
+		};
+		90EFEE4D289CE4D8008F567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rmit.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SuperMetroidVaniaMegaClone (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90EFEE4F289CE4D8008F567C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rmit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SuperMetroidVaniaMegaClone (macOS)";
+			};
+			name = Debug;
+		};
+		90EFEE50289CE4D8008F567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rmit.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SuperMetroidVaniaMegaClone (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90EFEE13289CE4D5008F567C /* Build configuration list for PBXProject "SuperMetroidVaniaMegaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EFEE43289CE4D8008F567C /* Debug */,
+				90EFEE44289CE4D8008F567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EFEE45289CE4D8008F567C /* Build configuration list for PBXNativeTarget "SuperMetroidVaniaMegaClone (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EFEE46289CE4D8008F567C /* Debug */,
+				90EFEE47289CE4D8008F567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EFEE48289CE4D8008F567C /* Build configuration list for PBXNativeTarget "SuperMetroidVaniaMegaClone (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EFEE49289CE4D8008F567C /* Debug */,
+				90EFEE4A289CE4D8008F567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EFEE4B289CE4D8008F567C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EFEE4C289CE4D8008F567C /* Debug */,
+				90EFEE4D289CE4D8008F567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EFEE4E289CE4D8008F567C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EFEE4F289CE4D8008F567C /* Debug */,
+				90EFEE50289CE4D8008F567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90EFEE10289CE4D5008F567C /* Project object */;
+}
