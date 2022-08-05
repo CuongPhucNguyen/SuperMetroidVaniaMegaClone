@@ -33,8 +33,8 @@ struct Player: View {
                     currentPositionY = inputPosition.positionY
                 }
             }
-            
         }
+        
     }
     
     init(player: PlayerObject){
