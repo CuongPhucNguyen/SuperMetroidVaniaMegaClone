@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		907379DA289F4BFE005B05B2 /* SuperMetroidVaniaMegaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE15289CE4D5008F567C /* SuperMetroidVaniaMegaCloneApp.swift */; };
+		907379DB289F4BFE005B05B2 /* SuperMetroidVaniaMegaCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE15289CE4D5008F567C /* SuperMetroidVaniaMegaCloneApp.swift */; };
+		907379E1289F61E1005B05B2 /* DragTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907379E0289F61E1005B05B2 /* DragTest.swift */; };
+		907379E2289F61E1005B05B2 /* DragTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907379E0289F61E1005B05B2 /* DragTest.swift */; };
+		907379E3289F61E1005B05B2 /* DragTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907379E0289F61E1005B05B2 /* DragTest.swift */; };
+		907379E4289F61E1005B05B2 /* DragTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907379E0289F61E1005B05B2 /* DragTest.swift */; };
+		90A6A203289F62EB00892261 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE57289CEA5A008F567C /* Player.swift */; };
+		90A6A204289F62EB00892261 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE57289CEA5A008F567C /* Player.swift */; };
+		90A6A205289F62EB00892261 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE57289CEA5A008F567C /* Player.swift */; };
 		90EFEE2E289CE4D8008F567C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE2D289CE4D8008F567C /* Tests_iOS.swift */; };
 		90EFEE30289CE4D8008F567C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE2F289CE4D8008F567C /* Tests_iOSLaunchTests.swift */; };
 		90EFEE3A289CE4D8008F567C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFEE39289CE4D8008F567C /* Tests_macOS.swift */; };
@@ -40,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		907379E0289F61E1005B05B2 /* DragTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragTest.swift; sourceTree = "<group>"; };
 		90EFEE15289CE4D5008F567C /* SuperMetroidVaniaMegaCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMetroidVaniaMegaCloneApp.swift; sourceTree = "<group>"; };
 		90EFEE16289CE4D5008F567C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90EFEE17289CE4D8008F567C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +99,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		907379DC289F5BB8005B05B2 /* Obstacle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Obstacle;
+			sourceTree = "<group>";
+		};
 		90EFEE0F289CE4D5008F567C = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +176,7 @@
 		90EFEE52289CEA1F008F567C /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				907379DC289F5BB8005B05B2 /* Obstacle */,
 				90EFEE55289CEA36008F567C /* Environment */,
 				90EFEE54289CEA30008F567C /* NPCs */,
 				90EFEE53289CEA28008F567C /* Player */,
@@ -186,6 +204,7 @@
 		90EFEE55289CEA36008F567C /* Environment */ = {
 			isa = PBXGroup;
 			children = (
+				907379E0289F61E1005B05B2 /* DragTest.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -359,6 +378,7 @@
 				90EFEE5E289CF326008F567C /* Move.swift in Sources */,
 				90EFEE3F289CE4D8008F567C /* ContentView.swift in Sources */,
 				90EFEE5A289CEBA2008F567C /* PlayerObject.swift in Sources */,
+				907379E1289F61E1005B05B2 /* DragTest.swift in Sources */,
 				90EFEE58289CEA5A008F567C /* Player.swift in Sources */,
 				90EFEE3D289CE4D8008F567C /* SuperMetroidVaniaMegaCloneApp.swift in Sources */,
 			);
@@ -368,6 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A6A203289F62EB00892261 /* Player.swift in Sources */,
+				907379E2289F61E1005B05B2 /* DragTest.swift in Sources */,
 				90EFEE40289CE4D8008F567C /* ContentView.swift in Sources */,
 				90EFEE3E289CE4D8008F567C /* SuperMetroidVaniaMegaCloneApp.swift in Sources */,
 			);
@@ -377,8 +399,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907379DA289F4BFE005B05B2 /* SuperMetroidVaniaMegaCloneApp.swift in Sources */,
 				90EFEE30289CE4D8008F567C /* Tests_iOSLaunchTests.swift in Sources */,
 				90EFEE2E289CE4D8008F567C /* Tests_iOS.swift in Sources */,
+				90A6A204289F62EB00892261 /* Player.swift in Sources */,
+				907379E3289F61E1005B05B2 /* DragTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,8 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907379DB289F4BFE005B05B2 /* SuperMetroidVaniaMegaCloneApp.swift in Sources */,
 				90EFEE3C289CE4D8008F567C /* Tests_macOSLaunchTests.swift in Sources */,
 				90EFEE3A289CE4D8008F567C /* Tests_macOS.swift in Sources */,
+				90A6A205289F62EB00892261 /* Player.swift in Sources */,
+				907379E4289F61E1005B05B2 /* DragTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +558,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -559,7 +587,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
